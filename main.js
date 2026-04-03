@@ -28,3 +28,10 @@ document.querySelector(".bottom-content .text-content:nth-child(2) h4").textCont
 document.querySelector(".bottom-content .text-content:nth-child(2) p").textContent = "Her kampanyamızı detaylı analiz ve araştırma ile başlatıyor, sürekli A/B test yaparak optimum performansı yakalıyoruz. Gerçek zamanlı raporlama sistemimizle kampanya performanslarını şeffaf şekilde paylaşıyor, hedeflenen KPI'ları tutturmak için sürekli iyileştirmeler yapıyoruz."; 
 document.querySelector(".bottom-content .text-content:nth-child(3) h4").textContent = "Sizin için özel stratejiler geliştiriyoruz";
 document.querySelector(".bottom-content .text-content:nth-child(3) p").textContent = "Her sektörün kendine özgü dinamikleri olduğunu biliyor, bu doğrultuda size özel pazarlama stratejileri geliştiriyoruz. Hedef kitlenizi analiz ediyor, rakip analizi yapıyor ve markanızın dijital dünyada öne çıkması için yaratıcı çözümler sunuyoruz. Uzun vadeli ortaklık anlayışımızla markanızın büyümesine katkı sağlıyoruz.";
+document.querySelector(".contact h4").textContent = "İletişim";
+
+document.querySelector(".contact p:nth-child(2)").textContent = "Maslak Mahallesi Büyükdere Cad. No:255 Sarıyer İstanbul, Türkiye";
+document.querySelector(".contact p:nth-child(3)").textContent = "+90 (212) 789-4561";
+document.querySelector(".contact p:nth-child(4)").textContent = "info@dijitalpazarlamaajansı.com";
+document.querySelector("footer a").textContent = "Copyright Dijital Pazarlama Ajansı 2025";
+document.querySelector("footer a").classList.add("bold");
